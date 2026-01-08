@@ -41,8 +41,9 @@ font-weight: 900;
 }
 
 .section-heading{
-    max-width: 827px;
+    max-width: 1140px;
     text-align: center;
+    margin: 0 auto;
 }
 .section-heading h2{
     font-size: 35px;
@@ -185,4 +186,48 @@ nav .menu a{
 .about-info .info-card h4{
     font-size: 20px;
     color: #474747;
+}
+
+#skills{
+    padding-top: 130px;
+}
+
+#skills .skills-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+#skills .skills-container .card-container{
+
+
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+
+
+}
+
+#skills .skills-container .card-container .card-box{
+    /* border: 1px solid red; */
+
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 #00000025;
+}
+
+#skills .skills-container .card-container .card-box img{
+    max-width: 44px; margin-bottom: 30px;
+}
+
+.card-container .card-box h4{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.card-container .card-box p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
 }
